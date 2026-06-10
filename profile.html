@@ -7,24 +7,58 @@ h1 {
   text-align: center;
   color: red;
   background: blue;
-  }
+  padding: 20px;
+  margin: 0;
+}
 p {
   text-align: center;
-  }
-body{
-  text-align:center;
+  font-size: 18px;
+  line-height: 1.6;
+}
+body {
+  text-align: center;
   background: black;
   color: white;
   font-family: helvetica;
-  }
+  margin: 0;
+  padding: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 3px solid white;
+}
+input {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="email"] {
+  width: 250px;
+}
+input[type="submit"] {
+  background: blue;
+  color: white;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  background: darkblue;
+}
 </style>
 </head>
 
 <body>
 <h1>Ahmed Qasim</h1>
-  <img src="https://imgur.com/a/UXze5yK">
-<p>Hi! I Am Ahmed Qasim, a math student in univarsity of bahrain.</p>
-<input type="email" placeholder="Your email">
-<input type="submit">
+<img src="https://via.placeholder.com/200/1a1a1a/ffffff?text=Ahmed+Qasim" alt="Profile Picture">
+<p>Hi! I Am Ahmed Qasim, a math student in University of Bahrain.</p>
+<form>
+  <input type="email" placeholder="Your email" required>
+  <input type="submit" value="Submit">
+</form>
 </body>
 </html>
